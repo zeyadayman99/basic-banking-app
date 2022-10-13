@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_data_screen"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/profile"/>
+
+    <TextView
+        android:id="@+id/user_data_screen_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="user id is here"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+        android:drawableStart="@drawable/ic_id_card_svgrepo_com"
+        android:drawableLeft="@drawable/ic_id_card_svgrepo_com"/>
+    <TextView
+        android:id="@+id/user_data_screen_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user name is here"
+        android:textStyle="italic"
+        android:textColor="#FF020923"
+        android:textSize="12sp"
+        android:layout_marginBottom="8dp"
+        android:drawableStart="@drawable/ic_user_id"
+        android:drawableLeft="@drawable/ic_user_id"
+        android:drawablePadding="5dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/user_data_screen_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="user job is here"
+        android:textColor="@color/black"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="8dp"
+        android:drawableLeft="@drawable/ic_work"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_work"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/user_data_screen_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="8dp"
+        android:text="car email is here"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:drawableStart="@drawable/ic_email"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/user_data_screen_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="user current balance is here"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/ic_baseline_monetization_on_24"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_baseline_monetization_on_24"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/transfer_balance_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="transfer balance"
+        android:background="@drawable/home_screen_buttons_back_ground"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"/>
+</LinearLayout>

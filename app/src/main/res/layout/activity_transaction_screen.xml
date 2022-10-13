@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".transaction_screen"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="from"
+            android:textSize="20sp"
+            android:textColor="@color/primaryDarkColor"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/from_user_name_transaction_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="user name is here"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="to"
+            android:textSize="20sp"
+            android:textColor="@color/primaryDarkColor"
+            android:layout_margin="10dp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout_users_transactions_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            app:helperTextTextColor="@color/primaryColor"
+            android:padding="3dp"
+            app:startIconDrawable="@drawable/ic_user_id">
+            <AutoCompleteTextView
+                android:id="@+id/users_list_transactions_screen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:inputType="none"
+                android:hint="select user"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout_balanceTransfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter balance"
+        app:hintTextColor="@color/grey"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:counterEnabled="true"
+        app:counterMaxLength="15"
+        app:helperText="Required *"
+        app:helperTextTextColor="@color/primaryColor"
+        android:padding="3dp"
+        app:endIconMode="clear_text"
+        app:startIconDrawable="@drawable/ic_baseline_monetization_on_24">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditText_balanceTransfer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:maxLength="16"
+            android:textSize="15sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <Button
+            android:id="@+id/transfer_balance_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="transfer balance"
+            android:background="@drawable/home_screen_buttons_back_ground"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+</LinearLayout>

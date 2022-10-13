@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".Home_screen"
+    android:padding="15dp">
+    <ImageView
+        android:id="@+id/editScreen_carImage"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bank"
+        android:fitsSystemWindows="true"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/welcome_message1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="E-banking"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/welcome_message2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="basic banking app"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:layout_marginTop="-8dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/welcome_message3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Est.2022"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+    <Button
+        android:id="@+id/users_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/home_screen_buttons_back_ground"
+        android:gravity="center"
+        android:text="@string/homeScreenBtn_users"
+        android:textColor="#202647"
+        android:textSize="13sp"
+        app:backgroundTint="@color/primaryLightColor" />
+
+    <Button
+        android:id="@+id/transactions_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/home_screen_buttons_back_ground"
+        android:gravity="center"
+        android:text="@string/homeScreenBtn_allTransactions"
+        android:textSize="13sp"
+        android:textColor="#202647"
+        app:backgroundTint="@color/primaryLightColor" />
+</LinearLayout>
