@@ -1,7 +1,5 @@
 # Basic Banking App
 
-![App Screenshot](./screenshots/app_screenshot.png)
-
 ## Overview
 
 Basic Banking App is a simple Android application designed to simulate basic banking operations. It allows users to view a list of customers and perform transactions between them.
@@ -12,10 +10,6 @@ Basic Banking App is a simple Android application designed to simulate basic ban
 - **Transfer Money**: Transfer money between any two customers.
 - **Transaction History**: View transaction history with details of all transactions made.
 
-## Screenshots
-
-![Screenshot 1](./screenshots/screenshot1.png)
-![Screenshot 2](./screenshots/screenshot2.png)
 
 ## Technologies Used
 
@@ -25,17 +19,18 @@ Basic Banking App is a simple Android application designed to simulate basic ban
 - ![XML](https://img.shields.io/badge/-XML-44B3F6?style=flat&logo=xml&logoColor=white)
 - ![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 
+## Usage
+
+- Launch the app on your Android device.
+- Navigate through the customer list to view details.
+- Select a customer to transfer money to another customer.
+- View transaction history to see details of transactions made.
+
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/zeyadayman99/basic-banking-app.git
 
-2. Usage
-Launch the app on your Android device.
-Navigate through the customer list to view details.
-Select a customer to transfer money to another customer.
-View transaction history to see details of transactions made.
-
-# Video explaining the App and the Code: 
+## Video explaining the App and the Code: 
 https://www.linkedin.com/feed/update/urn:li:activity:6987171790061989888/ 
