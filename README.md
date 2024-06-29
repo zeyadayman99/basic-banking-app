@@ -26,11 +26,18 @@ Basic Banking App is a simple Android application designed to simulate basic ban
 - Select a customer to transfer money to another customer.
 - View transaction history to see details of transactions made.
 
+## Video explaining the App and the Code: 
+https://www.linkedin.com/feed/update/urn:li:activity:6987171790061989888/ 
+
+## Contributing
+
+Contributions are welcome! Please feel free to fork the repository and submit pull requests to contribute to this project.
+
 ## Installation
 
 Clone the repository:
    ```bash
    git clone https://github.com/zeyadayman99/basic-banking-app.git
 
-## Video explaining the App and the Code: 
-https://www.linkedin.com/feed/update/urn:li:activity:6987171790061989888/ 
+
+   
